@@ -1,5 +1,5 @@
 {
-  "name": "pouchdb-react-native",
+  "name": "@qsi/pouchdb-react-native",
   "version": "6.4.1",
   "description": "PouchDB Bundle for ReactNative",
   "main": "index.js",
@@ -42,5 +42,8 @@
     "ignore": [
       "node_modules/**"
     ]
+  },
+  "publishConfig": {
+    "registry": "http://192.168.85.5:8081/nexus/repository/npm-hosted/"
   }
 }
