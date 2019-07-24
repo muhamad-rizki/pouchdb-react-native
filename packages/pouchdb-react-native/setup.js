@@ -5,7 +5,7 @@ var packageContent
 try {
   packageContent = JSON.parse(fs.readFileSync(PATH))
 } catch (e) {
-  PATH = '../pouchdb-binary-utils/package.json'
+  PATH = '../../pouchdb-binary-utils/package.json'
   packageContent = JSON.parse(fs.readFileSync(PATH))
 }
 
